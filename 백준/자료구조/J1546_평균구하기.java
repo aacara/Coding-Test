@@ -17,8 +17,6 @@ public class J1546_평균구하기 {
         max = arr[i];
       }
     }
-    System.out.println("sum" + sum);
-    System.out.println("max" + max);
 
     double average = sum * 100.0 / max / N;
     System.out.print(average);

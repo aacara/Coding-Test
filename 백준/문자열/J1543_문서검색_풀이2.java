@@ -2,7 +2,7 @@ package 백준.문자열;
 
 import java.util.Scanner;
 
-public class J1543_문서검색_풀이1 {
+public class J1543_문서검색_풀이2 {
 
   static String document;
   static String word;

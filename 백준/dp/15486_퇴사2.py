@@ -13,6 +13,5 @@ for i in range(N):
   if i+days[i] <= N:
     dp[i+days[i]] = max(dp[i]+prices[i], dp[i+days[i]])
   # 상담을 하지 않는 경우 - 이부분 놓침
-  if i < N:
-    dp[i+1] = max(dp[i+1], dp[i])
+  dp[i+1] = max(dp[i+1], dp[i])
 print(max(dp))
